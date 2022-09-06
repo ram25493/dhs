@@ -1,0 +1,42 @@
+.form{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 60%;
+    border: 1px solid;
+    padding: 10px;
+    margin-top: 40px;
+}
+
+.heading{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+
+.button {
+    display: inline-block;
+    padding: 5px 40px;
+    margin: 10px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: gray;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .button:hover {background-color: #0dcaf0}
+  
+  .button:active {
+    background-color: black;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
